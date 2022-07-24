@@ -1,0 +1,29 @@
+.place {
+  max-width: 928px;
+  display: flex;
+  gap: 48px 32px;
+  flex-wrap: wrap;
+  font-family: 'Inter', 'Arial', sans-serif;
+}
+
+@media screen and (min-width: 1280px) {
+  .place {
+    max-width: 984px;
+    gap: 48px 40px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .place {
+    max-width: 720px;
+    gap: 48px 28px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .place {
+    max-width: 320px;
+    gap: 32px;
+    justify-content: center;
+  }
+}

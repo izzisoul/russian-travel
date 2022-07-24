@@ -1,0 +1,29 @@
+.header {
+  font-family: 'Inter', 'Arial', sans-serif;
+  max-width: 928px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 28px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+@media screen and (min-width: 1280px) {
+  .header {
+    max-width: 1184px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .header {
+    max-width: 720px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .header {
+    max-width: 288px;
+    padding: 16px 16px 0;
+  }
+}

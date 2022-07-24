@@ -3,18 +3,5 @@
   font-weight: 400;
   line-height: 26px;
   text-align: left;
-  padding-right: 238px;
   margin: 0 0 33px;
-}
-
-@media screen and (min-width: 1280px) {
-  .intro__text {
-    padding-right: 294px;
-  }
-}
-
-@media screen and (min-width: 320px) and (max-width: 1023px) {
-  .intro__text {
-    padding: 0;
-  }
 }

@@ -8,7 +8,7 @@
 
 @media screen and (min-width: 1280px) {
   .lead {
-    min-width: 984px;
+    max-width: 984px;
   }
 }
 
